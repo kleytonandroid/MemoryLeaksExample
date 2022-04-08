@@ -7,10 +7,10 @@
 
 class SecondViewModel {
     
-    let onInformationLoading: ((Bool) -> Void)
+    let exampleClosure: ((Bool) -> Void)
     
     init(closure: @escaping ((Bool) -> Void)) {
-        onInformationLoading = closure
+        exampleClosure = closure
     }
 }
 
